@@ -1,0 +1,299 @@
+/* CSS Document */
+
+/* body{margin-top: 50px; margin-bottom: 100px;} */
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 400px !important;
+    overflow:hidden;
+}
+
+
+.card-header{color:dodgerblue}
+
+.slider2-img{
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 380px !important;
+    height: 400px !important;
+}
+.social-media-container{
+    border-top: 2px solid #4080ff;
+    box-shadow: 0px 5px 10px #88888866;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-container:hover{
+    background-color: rgb(185, 184, 184);
+    color: black;
+}
+.social-media-button{
+    background-color: #4080ff;
+    color: white;
+    border-radius: 5px;
+    
+}
+.social-media-button:hover{
+    background-color: white;
+}
+
+.social-media-button2{
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+.social-media-button2:hover{
+    background-color: white;
+}
+
+.social-media-button3{
+    background-color: rgb(207, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+.social-media-button3:hover{
+    background-color: white;
+}
+.social-twitter{
+    border-top: 2px solid aqua;
+}
+.social-instagram{
+    border-top: 2px solid #e02929;
+}
+.search-1{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px #88888866;
+}
+.newsletter-email{
+    border: none;
+    box-shadow: 0px 5px 10px  #88888866;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    
+    
+
+}
+.newsletter-email:focus{
+    outline: none;
+}
+
+.newsletter-email ::placeholder{
+    color: #88888866;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.detail-book2{
+    padding: 20px;
+    margin: 40px; 
+    width: 100%;
+    height: 100%;
+}
+
+.detail-card-title{
+    text-align: center;
+    
+}
+
+.detail-book3{
+    align-items: center;
+    padding-top: 20px;
+
+}
+.card-border-line{
+    border: 3px solid rgb(185, 184, 184);
+    width: 5px;
+    background: rgb(161, 205, 247);
+
+}
+
+.btn-sepet{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fa4538;
+    box-shadow: 0px 5px 15px;
+}
+.btn-sepet:hover{
+    background-color: #00d664;
+}
+.card{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************************************************** */
+
+/* -----------STYLE.CSS ÖZELLİKLERİ--------- */
+
+.book-images{
+   max-height: 200px;
+   max-width: 150px;
+   margin: auto;
+   margin-top: 2rem;
+   box-shadow: 5px 10px 18px #888;
+}
+.like-book{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.liked-book{
+    color: red;
+}
+.unliked{
+    color:gray ;
+    cursor: pointer;
+    
+}
+.card{
+    border: none;
+}
+.book-list-card{
+    background-color: red;
+}
+.card-title{
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+.load-more{
+    background: #00d664;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    box-shadow: 0px 5px 10px #88888866;
+}
+.social-media-container{
+    border-top: 2px solid #4080ff;
+    box-shadow: 0px 5px 10px #88888866;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-container:hover{
+    background-color: rgb(185, 184, 184);
+    color: black;
+}
+.social-media-button{
+    background-color: #4080ff;
+    color: white;
+    border-radius: 5px;
+    
+}
+.social-media-button:hover{
+    background-color: white;
+}
+
+.social-media-button2{
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+.social-media-button2:hover{
+    background-color: white;
+}
+
+.social-media-button3{
+    background-color: rgb(207, 66, 66);
+    color: white;
+    border-radius: 5px;
+}
+.social-media-button3:hover{
+    background-color: white;
+}
+.social-twitter{
+    border-top: 2px solid aqua;
+}
+.social-instagram{
+    border-top: 2px solid #e02929;
+}
+
+.search-1{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px #88888866;
+}
+.newsletter-email{
+    border: none;
+    box-shadow: 0px 5px 10px  #88888866;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    
+    
+
+}
+.newsletter-email:focus{
+    outline: none;
+}
+
+.newsletter-email ::placeholder{
+    color: #88888866;
+    opacity: 1;
+    font-weight: 600;
+}
+
+
+.slider2-img{
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 380px !important;
+    height: 400px !important;
+}
